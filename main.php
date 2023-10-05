@@ -47,3 +47,16 @@ function calculateGratiasPrice($values) {
     }
 
 }
+
+$result = calculateGratiasPrice([
+    [5190],
+    [38],
+    ['1/4'],
+    [2],
+    ['белая'],
+    [3],
+    [1],
+    [5000]
+]);
+
+print_r($result);
